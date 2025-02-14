@@ -18,7 +18,7 @@ li {
 /* navbar section start  */
 .navbar {
   position: absolute;
-  z-index: 1;
+  z-index: 999;
   width: 100%;
 }
 .navbar__container {
@@ -64,13 +64,24 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  z-index: 1;
+}
+.banner__overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 .banner__container {
-  background-color: rgba(0, 0, 0, 0.6);
   padding-top: 315px;
   margin-bottom: 55px;
   text-align: center;
   padding-bottom: 51px;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative;
+  z-index: 1; */
 }
 .banner__heading {
   font-weight: 700;
@@ -101,13 +112,13 @@ li {
   color: #ffffff;
   border: 1px solid #6a4df4;
   text-align: center;
-  margin-bottom: 100px;
 }
 .banner__slider {
   display: flex;
   width: 110px;
   margin: 0 auto;
   justify-content: space-between;
+  margin-top: 100px;
 }
 .banner__btn {
   height: 24px;
@@ -116,9 +127,63 @@ li {
   background-color: #6a4df4;
   border: 3px solid #6a4df4;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
-.banner__btn:hover{
-    border: 3px solid #ffffff;
+.banner__btn:hover {
+  border: 3px solid #ffffff;
 }
 /* banner section end */
+
+/* success section start  */
+.success {
+  margin-top: 171px;
+}
+.success__container {
+  background-color: #e0fff9;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.success__left{
+    margin-left: 50px;
+    margin-top: 85px;
+    margin-bottom: 86px;
+}
+.success__h5{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #6a4df4;
+    text-transform: capitalize;
+}
+.success__h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: #151515;
+    width: 387px;
+    margin-top: 15px;
+}
+.success__right{
+    margin-right: 51px;
+    width: 722px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69px;
+    margin-bottom: 126px;
+}
+.success__h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #151515;
+    margin-bottom: 20px;
+}
+.success__h6{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #737373;
+}
+/* success section end */
