@@ -90,7 +90,7 @@ li {
   margin: 0 auto;
   margin-bottom: 40px;
 }
-.banner__button {
+.banner__link {
   padding: 15px 42px;
   background-color: #6a4df4;
   border-radius: 10px;
@@ -102,7 +102,6 @@ li {
   border: 1px solid #6a4df4;
   text-align: center;
   margin-bottom: 100px;
-  cursor: pointer;
 }
 .banner__slider {
   display: flex;
@@ -110,7 +109,7 @@ li {
   margin: 0 auto;
   justify-content: space-between;
 }
-.banner__slider-btn {
+.banner__btn {
   height: 24px;
   width: 24px;
   border-radius: 50%;
@@ -119,7 +118,7 @@ li {
   cursor: pointer;
   transition: .5s;
 }
-.banner__slider-btn:hover{
+.banner__btn:hover{
     border: 3px solid #ffffff;
 }
 /* banner section end */
