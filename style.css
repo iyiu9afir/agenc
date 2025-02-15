@@ -328,17 +328,17 @@ li {
   margin-bottom: 130px;
   text-align: center;
 }
-.choose__bottom{
+.choose__bottom {
   display: flex;
   justify-content: space-between;
 }
-.choose__left{
+.choose__left {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 88px;
   column-gap: 103px;
 }
-.choose__left-title{
+.choose__left-title {
   font-weight: 700;
   font-size: 25px;
   color: #151515;
@@ -346,7 +346,7 @@ li {
   margin-bottom: 10px;
   margin-top: 20px;
 }
-.choose__left-info{
+.choose__left-info {
   font-size: 16px;
   line-height: 26px;
   color: #737373;
@@ -355,20 +355,46 @@ li {
 /* choose section end */
 
 /* reviews section start  */
-.reviews__container{
+.reviews {
+  margin-bottom: 227px;
+  position: relative;
+}
+.reviews__button-left {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #6a4df4;
+  border-radius: 50%;
+  left: 250px;
+  top: 65%;
+}
+.reviews__button-right {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #6a4df4;
+  border-radius: 50%;
+  right: 250px;
+  top: 65%;
+}
+.reviews__slider-icon{
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.reviews__container {
   width: 1320px;
   margin: 0 auto;
 }
-.reviews__top{
+.reviews__top {
   text-align: center;
 }
-.reviews__top-heading{
+.reviews__top-heading {
   font-weight: 700;
   font-size: 45px;
   color: #151515;
   text-transform: capitalize;
 }
-.reviews__top-info{
+.reviews__top-info {
   font-size: 16px;
   line-height: 26px;
   color: #737373;
@@ -378,47 +404,46 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
-.reviews__bottom{
+.reviews__bottom {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-bottom: 227px;
 }
-.reviews__item{
+.reviews__item {
   padding: 54px 58px 54px 59px;
   border-radius: 30px;
 }
-.reviews__profile{
+.reviews__profile {
   display: flex;
 }
-.reviews__profile-img{
+.reviews__profile-img {
   margin-right: 20px;
 }
-.reviews__bottom-img1{
+.reviews__bottom-img1 {
   margin-bottom: 20px;
 }
-.reviews__bottom-info{
+.reviews__bottom-info {
   font-size: 16px;
   line-height: 26px;
   color: #7b7b7b;
   margin-bottom: 20px;
 }
-.reviews__icons{
+.reviews__icons {
   margin-bottom: 30px;
 }
-.reviews__profile-name{
+.reviews__profile-name {
   font-weight: 600;
   font-size: 20px;
   line-height: 120%;
   color: #232323;
   text-transform: capitalize;
 }
-.reviews__profile-title{
+.reviews__profile-title {
   font-size: 16px;
   line-height: 26px;
   color: #7b7b7b;
   text-transform: capitalize;
 }
-.reviews__item--active{
-  background-color: #F4EFEF;
+.reviews__item--active {
+  background-color: #f4efef;
 }
 /* reviews section end  */
