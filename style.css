@@ -242,3 +242,31 @@ li {
     color: #636363;
 }
 /* service section end */
+
+
+/* recent section start  */
+.recent{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #F3F3F3;
+}
+.recent__container{
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+}
+.recent__top-heading{
+  font-size: 45px;
+  color: #151515;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.recent__top-detail{
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+  text-transform: capitalize;
+  width: 630px;
+  margin: 0 auto;
+}
+/* recent section end  */
