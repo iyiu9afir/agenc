@@ -328,4 +328,28 @@ li {
   margin-bottom: 130px;
   text-align: center;
 }
+.choose__bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.choose__left{
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 88px;
+  column-gap: 103px;
+}
+.choose__left-title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #151515;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.choose__left-info{
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+  width: 344px;
+}
 /* choose section end */
